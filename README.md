@@ -2,7 +2,7 @@
 
 ### Table of Contents
   1. [Twitter](#twitter)
-  1. 
+  1. [Security](#security)
 
 ### Twitter
 
@@ -21,3 +21,23 @@ PM> Install-Package Microsoft.Owin.Security.Twitter
   1. [Code! MVC 5 App with Facebook, Twitter, LinkedIn and Google OAuth2 Sign-on (C#) | The ASP.NET Site](http://www.asp.net/mvc/overview/security/create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on)
   
 **[⬆ back to top](#table-of-contents)**
+
+### Security 
+
+We will store all configuration in external files.
+
+Our need to have `Security/AppSettingsSecrets.config`.
+
+```xml
+<appSettings> 
+	
+	<!-- Twitter -->
+	<add key="TwitterConsumerKey" value="AppTwitterConsumerKey"/>
+	<add key="TwitterConsumerSecret" value="AppTwitterConsumerSecret" />
+	<!-- Twitter -->
+	  
+</appSettings>
+```
+
+### Sources:
+  1. [Best practices for deploying passwords and other sensitive data to ASP.NET and Azure App Service](http://www.asp.net/identity/overview/features-api/best-practices-for-deploying-passwords-and-other-sensitive-data-to-aspnet-and-azure)

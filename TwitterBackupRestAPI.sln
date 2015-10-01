@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterBackupRestAPI.Entiti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterBackupEntities.Repositories", "TwitterBackupEntities.Repositories\TwitterBackupEntities.Repositories.csproj", "{977AF859-5768-4E4A-94D4-38F9C1E20200}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientConfigurations", "AppConfigurations\ClientConfigurations.csproj", "{2CF0EA6F-608E-4368-8F80-937DF8CBC515}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{977AF859-5768-4E4A-94D4-38F9C1E20200}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{977AF859-5768-4E4A-94D4-38F9C1E20200}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{977AF859-5768-4E4A-94D4-38F9C1E20200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CF0EA6F-608E-4368-8F80-937DF8CBC515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CF0EA6F-608E-4368-8F80-937DF8CBC515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CF0EA6F-608E-4368-8F80-937DF8CBC515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CF0EA6F-608E-4368-8F80-937DF8CBC515}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
